@@ -1,0 +1,12 @@
+.developer {
+  color: var(--third-color);
+}
+.title {
+  color: var(--text-color);
+}
+.block_text {
+  border-right: 2px solid var(--border-color);
+}
+.text_text {
+  color: var(--text-color);
+}

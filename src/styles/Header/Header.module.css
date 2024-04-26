@@ -13,7 +13,6 @@
 }
 .logo {
   background-color: var(--background-fon);
-  border-color: var(--border-color);
   color: var(--text-color);
 }
 .logo:hover {

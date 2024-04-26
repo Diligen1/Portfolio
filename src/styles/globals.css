@@ -43,7 +43,7 @@
   --text-color: #bbdefb;
   --border-color: #ffffff;
   --second-color: #fd2b71;
-  --third-color: #8338ec;
+  --third-color: #ffa200;
 }
 [data-theme="pink"] {
   --background-fon: #f4c4c4;
@@ -87,7 +87,10 @@ body::-webkit-scrollbar-thumb {
 .text-underline:hover::after {
   width: 120%;
 }
-
+::selection {
+  background-color: var(--third-color);
+  color: var(--background-fon);
+}
 @font-face {
   font-family: "Acline";
   src: url("../../public/assets/fonts/acline/acline.woff2") format("woff2"),

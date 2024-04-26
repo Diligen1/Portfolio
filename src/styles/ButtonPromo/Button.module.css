@@ -1,0 +1,23 @@
+.block {
+  background-color: var(--text-color);
+}
+
+.text_block {
+  background-color: var(--third-color);
+  border-color: var(--background-fon);
+}
+.texter {
+  background-color: var(--text-color);
+}
+.block_go {
+  color: var(--text-color);
+}
+.block_icon {
+  background-color: var(--background-fon);
+}
+.text_learn {
+  color: var(--background-fon);
+}
+.icon {
+  color: var(--text-color);
+}

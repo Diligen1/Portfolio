@@ -17,11 +17,11 @@ export default function Theme() {
         onClick={() => onClick("base")}
         className=" cursor-pointer w-[50px] h-[50px] bg-[#FF5943] rounded-[8px] border-[1px] border-[#D84332]"
       ></motion.div>
-      <motion.div
+      <motion.button
         whileHover={{ scale: 1.2 }}
         onClick={() => onClick("dark-blue")}
         className=" cursor-pointer w-[50px] h-[50px] bg-[#003049] rounded-[8px] border-[1px] border-[#FDF0D5]"
-      ></motion.div>
+      ></motion.button>
       <motion.div
         whileHover={{ scale: 1.2 }}
         onClick={() => onClick("red")}

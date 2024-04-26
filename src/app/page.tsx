@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <main className="mx-auto">
       <Header />
-      <div className="pt-[120px]">
+      <div className="pt-[40px]">
         <Promo />
       </div>
     </main>

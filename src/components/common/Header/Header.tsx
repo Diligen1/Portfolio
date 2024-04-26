@@ -23,11 +23,11 @@ export default function Header() {
         }}
         className={`w-[80%] h-[100px] rounded-[6px] flex flex-row border-[2px] ${style.border} overflow-hidden justify-between`}
       >
-        <div className="relative w-[25%] h-full flex flex-row gap-[3px]">
+        <div className="relative w-[25%] h-full flex flex-row gap-[8px]">
           <div className={`${style.third} w-[20%] `}></div>
           <div
             className={`cursor-pointer absolute left-[10%] hover:left-[6%] ${style.logo}
-          top-[25%] w-[50px] h-[50px]  text-white flex justify-center items-center rounded-[6px] duration-300 hover:w-[70px] border-[1px] `}
+          top-[25%] w-[50px] h-[50px] flex justify-center items-center rounded-[6px] duration-300 hover:w-[70px] `}
           >
             <p className={` text-[24px] `} style={{ fontFamily: "Caviar" }}>
               CK
