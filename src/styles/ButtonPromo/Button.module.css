@@ -10,7 +10,7 @@
   background-color: var(--text-color);
 }
 .block_go {
-  color: var(--text-color);
+  color: var(--background-fon);
 }
 .block_icon {
   background-color: var(--background-fon);

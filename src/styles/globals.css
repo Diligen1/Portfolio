@@ -14,14 +14,14 @@
   --text-color: #fdf0d5;
   --border-color: #02273b;
   --second-color: #0d415e;
-  --third-color: #669bbc;
+  --third-color: #c9e432;
 }
 [data-theme="red"] {
-  --background-fon: #b61d22;
-  --text-color: #dbf5fa;
+  --background-fon: #ffd97d;
+  --text-color: #ee6055;
   --border-color: #8a1216;
   --second-color: #c01c21;
-  --third-color: #ef233c;
+  --third-color: #2a9d8f;
 }
 
 [data-theme="aqua"] {
@@ -32,7 +32,7 @@
   --third-color: #8638ec;
 }
 [data-theme="white"] {
-  --background-fon: #ebeded;
+  --background-fon: #eff7f6;
   --text-color: #ef233c;
   --border-color: #ca182d;
   --second-color: #c0aaaa;
@@ -55,7 +55,7 @@
 [data-theme="blue"] {
   --background-fon: #00a19a;
   --text-color: #fff;
-  --border-color: #2e282a;
+  --border-color: #a9def9;
   --second-color: #fd2b71;
   --third-color: #2e282a;
 }

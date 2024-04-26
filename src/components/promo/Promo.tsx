@@ -1,14 +1,15 @@
 "use client";
 import style from "@/styles/Promo/Promo.module.css";
 import "../../styles/globals.css";
+import image from "../../../public/assets/image/ava.jpg";
 import ButtonPromo from "../common/BTNworks/BTNworks";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
-import { useEffect } from "react";
+import Image from "next/image";
 
 export default function Promo() {
   const [text] = useTypewriter({
     words: ["DEVELOPER", "DESIGNER", "RELAXING"],
-    loop: 3,
+    loop: 0,
     typeSpeed: 120,
     deleteSpeed: 80,
     delaySpeed: 10000,
@@ -18,7 +19,7 @@ export default function Promo() {
       <div className="w-full h-[700px] flex flex-row ">
         <div className={` w-[50%] `}>
           <div
-            className={`${style.block_text} text-right h-[80%] flex flex-col justify-center gap-[15px] pr-[20px]`}
+            className={`${style.block_text} text-right h-[80%] flex flex-col justify-center gap-[15px]  px-[20px]`}
           >
             <h3
               style={{ fontFamily: "Stark" }}
@@ -31,11 +32,13 @@ export default function Promo() {
             </h3>
             <h2
               style={{ fontFamily: "Stark" }}
-              className={`${style.title} cursor-default  text-[96px] tracking-[9px]`}
+              className={`${style.title} cursor-default  text-[96px] tracking-[12px]`}
             >
               CREATOR
               <br />
-              KUBA
+              <span className={`${style.text_kuba} pt-[13px] pb-[14px]`}>
+                KUBA
+              </span>
             </h2>
             <p
               style={{ fontFamily: "Acline" }}
@@ -45,11 +48,17 @@ export default function Promo() {
               веб-технологий.
             </p>
           </div>
-          <div className="flex items-end justify-end">
+          <div className="flex items-end justify-end pr-[20px] ">
             <ButtonPromo />
           </div>
         </div>
-        <div className={` w-[50%]`}></div>
+        <div className={`w-[50%] flex justify-center items-center`}>
+          <div
+            className={`${style.image} relative w-[450px] h-[450px] rounded-[50%] overflow-hidden border-[5px]`}
+          >
+            <Image src={image} alt="ava" priority />
+          </div>
+        </div>
       </div>
     </main>
   );
