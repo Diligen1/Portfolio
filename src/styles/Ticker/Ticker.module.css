@@ -1,0 +1,25 @@
+.container {
+  max-width: 100%;
+  overflow: hidden;
+  border-top: 4px solid var(--text-color);
+  border-bottom: 4px solid var(--text-color);
+}
+.content {
+  display: flex;
+  width: 200%;
+  animation: marguee 10s linear infinite;
+}
+.text {
+  color: var(--text-color);
+  white-space: nowrap;
+  width: 50%;
+}
+
+@keyframes marguee {
+  0% {
+    transform: translateX(50);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

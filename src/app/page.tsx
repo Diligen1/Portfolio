@@ -1,4 +1,4 @@
-import { Header, Promo } from "@/components";
+import { Header, Promo, Works } from "@/components";
 export default function Home() {
   return (
     <main className="mx-auto">
@@ -6,6 +6,7 @@ export default function Home() {
       <div className="pt-[40px]">
         <Promo />
       </div>
+      <Works />
     </main>
   );
 }
