@@ -1,10 +1,13 @@
 "use client";
-import { Ticker } from "@/components";
+import { Ticker, Workers } from "@/components";
 export default function Works() {
   return (
-    <main>
-      <div>
+    <main className="mx-auto">
+      <div className={` w-full h-[700px]`}>
         <Ticker />
+        <div>
+          <Workers />
+        </div>
       </div>
     </main>
   );

@@ -19,8 +19,8 @@
 [data-theme="red"] {
   --background-fon: #ffd97d;
   --text-color: #ee6055;
-  --border-color: #8a1216;
-  --second-color: #c01c21;
+  --border-color: #a7c957;
+  --second-color: #ffd97d;
   --third-color: #2a9d8f;
 }
 
@@ -28,35 +28,35 @@
   --background-fon: #51e490;
   --text-color: #0f4c5c;
   --border-color: #dbf5fa;
-  --second-color: #fd2b71;
+  --second-color: #45c27b;
   --third-color: #8638ec;
 }
 [data-theme="white"] {
   --background-fon: #eff7f6;
   --text-color: #ef233c;
   --border-color: #ca182d;
-  --second-color: #c0aaaa;
+  --second-color: #ddfff8;
   --third-color: #b7e000;
 }
 [data-theme="dark"] {
   --background-fon: #282b29;
   --text-color: #bbdefb;
   --border-color: #ffffff;
-  --second-color: #fd2b71;
+  --second-color: #313633;
   --third-color: #ffa200;
 }
 [data-theme="pink"] {
   --background-fon: #f4c4c4;
   --text-color: #282b29;
   --border-color: #282b29;
-  --second-color: #fd2b71;
+  --second-color: #e6b8b8;
   --third-color: #17bebb;
 }
 [data-theme="blue"] {
   --background-fon: #00a19a;
   --text-color: #fff;
   --border-color: #a9def9;
-  --second-color: #fd2b71;
+  --second-color: #018d86;
   --third-color: #2e282a;
 }
 
