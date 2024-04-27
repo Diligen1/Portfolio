@@ -34,7 +34,7 @@ export default function Promo() {
                 <Cursor cursorStyle="<" cursorColor="var(--Thrid-color)" />
               </span>
             </motion.h3>
-            <motion.h2
+            <motion.h1
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
@@ -46,7 +46,7 @@ export default function Promo() {
               <span className={`${style.text_kuba} pt-[13px] pb-[14px]`}>
                 KUBA
               </span>
-            </motion.h2>
+            </motion.h1>
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
