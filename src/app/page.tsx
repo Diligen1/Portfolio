@@ -1,4 +1,4 @@
-import { Header, Promo, Works } from "@/components";
+import { Header, Promo, Works, Skills } from "@/components";
 export default function Home() {
   return (
     <main className="mx-auto">
@@ -7,6 +7,9 @@ export default function Home() {
         <Promo />
       </div>
       <Works />
+      <div className="py-[140px]">
+        <Skills />
+      </div>
     </main>
   );
 }

@@ -5,4 +5,5 @@ import ButtonPromo from "./common/BTNworks/BTNworks";
 import Ticker from "./common/Ticker/Ticker";
 import Works from "./works/Works";
 import Workers from "./common/Workers/Workers";
-export { Header, Theme, Promo, ButtonPromo, Ticker, Works, Workers };
+import Skills from "./skills/Skills";
+export { Header, Theme, Promo, ButtonPromo, Ticker, Works, Workers, Skills };
