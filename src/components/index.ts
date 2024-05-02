@@ -1,5 +1,6 @@
 import Header from "./common/Header/Header";
 import Theme from "./common/Theme/Theme";
+import Footer from "./common/Footer/Footer";
 import Promo from "./promo/Promo";
 import ButtonPromo from "./common/BTNworks/BTNworks";
 import Ticker from "./common/Ticker/Ticker";
@@ -8,7 +9,7 @@ import Workers from "./common/Workers/workers";
 import Skills from "./skills/Skills";
 import Relax from "./relax/Relax";
 import ButtonRelax from "./common/BTNrelax/BTNrelax";
-import Footer from "./common/Footer/Footer";
+
 export {
   Header,
   Theme,
