@@ -8,6 +8,7 @@ import Workers from "./common/Workers/workers";
 import Skills from "./skills/Skills";
 import Relax from "./relax/Relax";
 import ButtonRelax from "./common/BTNrelax/BTNrelax";
+import Footer from "./common/Footer/Footer";
 export {
   Header,
   Theme,
@@ -19,4 +20,5 @@ export {
   Workers,
   Skills,
   Relax,
+  Footer,
 };

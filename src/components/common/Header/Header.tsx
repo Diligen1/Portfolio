@@ -21,7 +21,7 @@ export default function Header() {
         transition={{
           type: "spring",
         }}
-        className={` fixed z-50 bg-[var(--background-fon)] border[var(--border-color)] w-[80%] h-[100px] rounded-[6px] flex flex-row border-[2px]  overflow-hidden justify-between`}
+        className={` bg-[var(--background-fon)] border[var(--border-color)] w-[80%] h-[100px] rounded-[6px] flex flex-row border-[2px]  overflow-hidden justify-between`}
       >
         <div className="relative w-[25%] h-full flex flex-row gap-[8px]">
           <div className={`${style.third} w-[20%] `}></div>

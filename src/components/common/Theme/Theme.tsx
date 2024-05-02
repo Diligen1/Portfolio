@@ -11,7 +11,7 @@ export default function Theme() {
       initial={{ x: 200 }}
       animate={{ x: 0 }}
       transition={{ duration: 0.4, type: "spring" }}
-      className={`${style.block} fixed z-50 w-[270px] h-[140px] rounded-[8px]  top-[130px] right-[130px] border-[2px] flex flex-wrap justify-center items-center p-[10px] gap-[10px] `}
+      className={`${style.block} absolute w-[270px] h-[140px] rounded-[8px]  top-[130px] right-[130px] border-[2px] flex flex-wrap justify-center items-center p-[10px] gap-[10px] `}
     >
       <motion.div
         whileHover={{ scale: 1.2 }}

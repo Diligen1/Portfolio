@@ -1,4 +1,4 @@
-import { Header, Promo, Works, Skills, Relax } from "@/components";
+import { Header, Promo, Works, Skills, Relax, Footer } from "@/components";
 export default function Home() {
   return (
     <main className="mx-auto">
@@ -11,6 +11,9 @@ export default function Home() {
         <Skills />
       </div>
       <Relax />
+      <div className="pt-[160px]">
+        <Footer />
+      </div>
     </main>
   );
 }
