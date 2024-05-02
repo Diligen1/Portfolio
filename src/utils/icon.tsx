@@ -2,7 +2,6 @@ import image from "../../public/assets/icon/HTML.png";
 import image_1 from "../../public/assets/icon/css.png";
 import image_6 from "../../public/assets/icon/tailwind.png";
 import image_8 from "../../public/assets/icon/sass.png";
-import image_14 from "../../public/assets/icon/photoshop.png";
 import image_11 from "../../public/assets/icon/figma.png";
 import image_13 from "../../public/assets/icon/Three.js.png";
 import image_7 from "../../public/assets/icon/framer-motion.png";
@@ -18,7 +17,7 @@ export const icon = [
   {
     id: 1,
     image: image,
-    text: "CSS.icon",
+    text: "HTML.icon",
   },
   {
     id: 2,
@@ -28,66 +27,61 @@ export const icon = [
   {
     id: 3,
     image: image_2,
-    text: "CSS.icon",
+    text: "JavaScript.icon",
   },
   {
     id: 4,
     image: image_3,
-    text: "CSS.icon",
+    text: "TypeScript.icon",
   },
   {
     id: 5,
     image: image_4,
-    text: "CSS.icon",
+    text: "React.icon",
   },
   {
     id: 6,
     image: image_5,
-    text: "CSS.icon",
+    text: "Next.icon",
   },
   {
     id: 7,
     image: image_6,
-    text: "CSS.icon",
+    text: "Tailwind.icon",
   },
   {
     id: 8,
     image: image_7,
-    text: "CSS.icon",
+    text: "Framer-motion.icon",
   },
   {
     id: 9,
     image: image_8,
-    text: "CSS.icon",
+    text: "Sass.icon",
   },
   {
     id: 10,
     image: image_9,
-    text: "CSS.icon",
+    text: "Redux.icon",
   },
   {
     id: 11,
     image: image_10,
-    text: "CSS.icon",
+    text: "Mui.icon",
   },
   {
     id: 12,
     image: image_11,
-    text: "CSS.icon",
+    text: "Figma.icon",
   },
   {
     id: 13,
     image: image_12,
-    text: "CSS.icon",
+    text: "Git.icon",
   },
   {
     id: 14,
     image: image_13,
-    text: "CSS.icon",
-  },
-  {
-    id: 15,
-    image: image_14,
-    text: "CSS.icon",
+    text: "Three.icon",
   },
 ];

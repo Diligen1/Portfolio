@@ -3,7 +3,7 @@
 import "../../../styles/globals.css";
 import style from "@/styles/Header/Header.module.css";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Link from "next/link";
 import Theme from "../Theme/Theme";
 export default function Header() {
@@ -21,7 +21,7 @@ export default function Header() {
         transition={{
           type: "spring",
         }}
-        className={`w-[80%] h-[100px] rounded-[6px] flex flex-row border-[2px] ${style.border} overflow-hidden justify-between`}
+        className={` fixed z-50 bg-[var(--background-fon)] border[var(--border-color)] w-[80%] h-[100px] rounded-[6px] flex flex-row border-[2px]  overflow-hidden justify-between`}
       >
         <div className="relative w-[25%] h-full flex flex-row gap-[8px]">
           <div className={`${style.third} w-[20%] `}></div>
@@ -51,11 +51,11 @@ export default function Header() {
             transition={{ delay: 1 }}
           >
             <Link
-              href="/"
+              href="/#work"
               className={`${style.nav_text} tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
-              ABOUT
+              WORKS
             </Link>
           </motion.div>
 
@@ -65,7 +65,7 @@ export default function Header() {
             transition={{ delay: 1.5 }}
           >
             <Link
-              href="/"
+              href="/#skill"
               className={`${style.nav_text} tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
@@ -78,7 +78,7 @@ export default function Header() {
             transition={{ delay: 2 }}
           >
             <Link
-              href="/"
+              href="/#relax"
               className={`${style.nav_text}  tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
@@ -95,7 +95,7 @@ export default function Header() {
               className={`${style.nav_text}  tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
-              WORKS
+              CONTACT
             </Link>
           </motion.div>
         </div>

@@ -6,12 +6,10 @@ import { motion } from "framer-motion";
 import image from "../../../../public/assets/image/8 Types of Graphic Design Careers to Explore (2022).gif";
 import image_2 from "../../../../public/assets/image/Landscape shooting stars.gif";
 import image_3 from "../../../../public/assets/image/coffee cup gif.gif";
-{
-  /* <i className="fi fi-ss-flame"></i> */
-}
+
 export default function Workers() {
   return (
-    <main>
+    <main id="work">
       <div className="w-full h-[700px] flex justify-center items-center flex-wrap gap-[100px]">
         <div
           className={`${style.contain} relative w-[350px] h-[580px] rounded-[18px] border-[2px] flex flex-col justify-evenly`}
