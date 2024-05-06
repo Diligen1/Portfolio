@@ -1,10 +1,9 @@
 "use client";
-
-import "../../../styles/globals.css";
 import { motion } from "framer-motion";
-import { useState, useRef } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import Theme from "../Theme/Theme";
+
 export default function Header() {
   const [isActive, setIsActive] = useState(false);
 
@@ -28,16 +27,13 @@ export default function Header() {
             className={`cursor-pointer absolute left-[10%] hover:left-[6%] bg-[var(--background-fon)] text-[var(--text-color)] hover:text-[var(--background-fon)] hover:bg-[var(--text-color)]
           top-[25%] w-[50px] h-[50px] flex justify-center items-center rounded-[6px] duration-300 hover:w-[70px] `}
           >
-            <p className={` text-[24px] `} style={{ fontFamily: "Caviar" }}>
-              CK
-            </p>
+            <p className={`text-[24px]  `}>CK</p>
           </div>
           <div
             className={` bg-[var(--text-color)] w-[80%] flex pl-[40px] items-center duration-300`}
           >
             <p
-              className={` tracking-[8px] text-[12px] text-[var(--background-fon)] duration-300 cursor-default`}
-              style={{ fontFamily: "Caviar" }}
+              className={`  tracking-[8px] text-[12px] text-[var(--background-fon)] duration-300 cursor-default`}
             >
               CREATOR <br /> KUBA
             </p>
@@ -52,7 +48,6 @@ export default function Header() {
             <Link
               href="/#work"
               className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
             >
               WORKS
             </Link>
@@ -65,8 +60,7 @@ export default function Header() {
           >
             <Link
               href="/#skill"
-              className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
+              className={`  text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
             >
               SKILLS
             </Link>
@@ -79,7 +73,6 @@ export default function Header() {
             <Link
               href="/#relax"
               className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)]  tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
             >
               RELAX
             </Link>
@@ -92,7 +85,6 @@ export default function Header() {
             <Link
               href="/"
               className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)]  tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
             >
               CONTACT
             </Link>
@@ -108,7 +100,7 @@ export default function Header() {
             className={` hover:text-[var(--background-fon)] hover:bg-[var(--text-color)] hover:border-[var(--third-color)] duration-300 text-[var(--text-color)] border-[var(--border-color)] bg-[var(--background-fon)] w-[180px] h-[50px] border-[2px]  rounded-[8px] flex justify-center items-center  text-[18px] cursor-pointer`}
             onClick={handleActive}
           >
-            <p style={{ fontFamily: "Gilroy" }}>THEME</p>
+            <p>THEME</p>
           </div>
         </motion.div>
       </motion.div>

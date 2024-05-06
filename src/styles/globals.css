@@ -91,36 +91,3 @@ body::-webkit-scrollbar-thumb {
   background-color: var(--third-color);
   color: var(--background-fon);
 }
-@font-face {
-  font-family: "Acline";
-  src: url("../../public/assets/fonts/acline/acline.woff2") format("woff2"),
-    url("../../public/assets/fonts/acline/acline.woff") format("woff"),
-    url("../../public/assets/fonts/acline/acline.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Stark";
-  src: url("../../public/assets/fonts/stark/stark.woff2") format("woff2"),
-    url("../../public/assets/fonts/stark/stark.woff") format("woff"),
-    url("../../public/assets/fonts/stark/stark.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Ubuntu";
-  src: url("../../public/assets/fonts/ubuntu/ubuntubold.woff2") format("woff2"),
-    url("../../public/assets/fonts/ubuntu/ubuntubold.woff") format("woff"),
-    url("../../public/assets/fonts/ubuntu/ubuntubold.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Caviar";
-  src: url("../../public/assets/fonts/caviar/caviardreamsbold.woff2")
-      format("woff2"),
-    url("../../public/assets/fonts/caviar/caviardreamsbold.woff") format("woff"),
-    url("../../public/assets/fonts/caviar/caviardreamsbold.ttf") format("ttf");
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("../../public/assets/fonts/gilroy/Gilroyextrabold.woff2")
-      format("woff2"),
-    url("../../public/assets/fonts/gilroy/Gilroyextrabold.woff") format("woff"),
-    url("../../public/assets/fonts/gilroy/Gilroyextrabold.ttf") format("ttf");
-}

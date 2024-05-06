@@ -37,7 +37,7 @@ export default function ButtonPromo() {
         ${isHovered ? "bg-[var(--text-color)]" : "bg-[var(--background-fon)]"}`}
         ></div>
         <p
-          className={` text-[var(--background-fon)] absolute text-[14px] px-[20px] left-[50px] transition-all duration-500 
+          className={` text-[var(--background-fon)] absolute text-[13px] px-[20px] left-[50px] transition-all duration-500 
            ${isHovered ? "left-[200px] transform translate-x-[140px]" : ""}
            ${isHovered ? "opacity-0" : "opacity-100"}
            `}

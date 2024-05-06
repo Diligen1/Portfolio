@@ -1,10 +1,5 @@
 "use client";
-import image_1 from "../../../../public/assets/social/Telegram_Messenger.png";
-import image_2 from "../../../../public/assets/social/whatsapp.png";
-import image_3 from "../../../../public/assets/social/png-transparent-tiktok-icon-black-1-hd-logo.png";
-import image_4 from "../../../../public/assets/social/Instagram_icon.png";
-import image_5 from "../../../../public/assets/social/png-transparent-github-computer-icons-github-white-logo-silhouette-thumbnail.png";
-import image_6 from "../../../../public/assets/social/144_Gitlab_logo_logos-512.png";
+
 import { motion } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
@@ -75,7 +70,6 @@ export default function Footer() {
             <Link
               href="/#work"
               className={`  duration-300 hover:text-[var(--third-color)] text-[var(--text-color)] tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
             >
               WORKS
             </Link>
@@ -89,7 +83,6 @@ export default function Footer() {
             <Link
               href="/#skill"
               className={`text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
             >
               SKILLS
             </Link>
@@ -102,7 +95,6 @@ export default function Footer() {
             <Link
               href="/#relax"
               className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
             >
               RELAX
             </Link>
@@ -115,7 +107,6 @@ export default function Footer() {
             <Link
               href="/"
               className={`text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
-              style={{ fontFamily: "Ubuntu" }}
             >
               CONTACT
             </Link>

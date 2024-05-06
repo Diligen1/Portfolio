@@ -1,6 +1,6 @@
 "use client";
 import ButtonRelax from "../common/BTNrelax/BTNrelax";
-import "../../styles/globals.css";
+
 export default function Relax() {
   return (
     <main id="relax" className="mx-auto">
@@ -13,13 +13,11 @@ export default function Relax() {
           >
             <div className="w-[350px] h-[20%] pl-[40px] flex flex-row items-center">
               <div
-                style={{ fontFamily: "Stark" }}
                 className={` bg-[var(--text-color)] text-[var(--background-fon)] w-[60px] h-[60px] rounded-[4px]  flex justify-center items-center text-[32px]`}
               >
                 CK
               </div>
               <p
-                style={{ fontFamily: "Caviar" }}
                 className={`text-[var(--text-color)] pl-[20px] tracking-[8px] text-[14px]`}
               >
                 CREATOR <br /> KUBA
@@ -27,14 +25,14 @@ export default function Relax() {
             </div>
             <div className="w-[350px] h-[50%]  flex flex-col justify-center gap-[20px] ">
               <p
-                style={{ fontFamily: "Caviar" }}
                 className={`text-[44px] pl-[40px] text-[var(--text-color)]`}
+                style={{ fontWeight: 700 }}
               >
                 FOR <br /> RELAXATION
               </p>
               <p
-                style={{ fontFamily: "Acline" }}
                 className={`pl-[40px] text-[16px] text-[var(--text-color)]`}
+                style={{ fontWeight: 300 }}
               >
                 While deeply engrossed in coding, I frequently find myself
                 immersed in the captivating melodies of the following songs or

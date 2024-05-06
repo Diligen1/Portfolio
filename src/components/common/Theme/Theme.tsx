@@ -1,6 +1,5 @@
 "use client";
 import { motion } from "framer-motion";
-import style from "@/styles/Theme/Theme.module.css";
 
 export default function Theme() {
   const onClick = (value: string) => {

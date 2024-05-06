@@ -1,6 +1,5 @@
 "use client";
 import style from "@/styles/Workers/Workers.module.css";
-import "../../../styles/globals.css";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import image from "../../../../public/assets/image/8 Types of Graphic Design Careers to Explore (2022).gif";
@@ -16,16 +15,8 @@ export default function Workers() {
         >
           <div className={` flex flex-row justify-around items-center `}>
             <div className="w-[65%]">
-              <p
-                className={` text-[25px] m-0 p-0 ${style.number}`}
-                style={{ fontFamily: "Caviar" }}
-              >
-                01
-              </p>
-              <p
-                className={` text-[14px] ${style.number}`}
-                style={{ fontFamily: "Stark" }}
-              >
+              <p className={` text-[25px] m-0 p-0 ${style.number}`}>01</p>
+              <p className={` text-[14px] ${style.number}`}>
                 Programming courses
               </p>
             </div>
@@ -44,16 +35,10 @@ export default function Workers() {
             </div>
           </div>
           <div className="px-[20px]">
-            <p
-              className={`${style.title} text-[26px] pb-[10px]`}
-              style={{ fontFamily: "Stark" }}
-            >
+            <p className={`${style.title} text-[26px] pb-[10px]`}>
               Booster-school
             </p>
-            <p
-              className={`${style.title} pb-[20px]`}
-              style={{ fontFamily: "Gilroy" }}
-            >
+            <p className={`${style.title} pb-[20px]`}>
               Принимал участие в разработке сайта курсов по программированию.
             </p>
           </div>
@@ -75,16 +60,8 @@ export default function Workers() {
         >
           <div className={` flex flex-row justify-around items-center `}>
             <div className="w-[55%]">
-              <p
-                className={` text-[25px] m-0 p-0 ${style.number}`}
-                style={{ fontFamily: "Caviar" }}
-              >
-                02
-              </p>
-              <p
-                className={` text-[14px] ${style.number}`}
-                style={{ fontFamily: "Stark" }}
-              >
+              <p className={` text-[25px] m-0 p-0 ${style.number}`}>02</p>
+              <p className={` text-[14px] ${style.number}`}>
                 Hiking in the mountains
               </p>
             </div>
@@ -107,16 +84,10 @@ export default function Workers() {
             </div>
           </div>
           <div className="px-[20px]">
-            <p
-              className={`${style.title} text-[26px] pb-[10px]`}
-              style={{ fontFamily: "Stark" }}
-            >
+            <p className={`${style.title} text-[26px] pb-[10px]`}>
               Horse-and-Travel
             </p>
-            <p
-              className={`${style.title} pb-[20px]`}
-              style={{ fontFamily: "Gilroy" }}
-            >
+            <p className={`${style.title} pb-[20px]`}>
               Принимал участие в разработке сайта Похода в горы.
             </p>
           </div>
@@ -138,18 +109,8 @@ export default function Workers() {
         >
           <div className={` flex flex-row justify-around items-center `}>
             <div className="w-[55%]">
-              <p
-                className={` text-[25px] m-0 p-0 ${style.number}`}
-                style={{ fontFamily: "Caviar" }}
-              >
-                03
-              </p>
-              <p
-                className={` text-[14px] ${style.number}`}
-                style={{ fontFamily: "Stark" }}
-              >
-                In developing
-              </p>
+              <p className={` text-[25px] m-0 p-0 ${style.number}`}>03</p>
+              <p className={` text-[14px] ${style.number}`}>In developing</p>
             </div>
             <motion.div
               whileHover={{ scale: 1.1 }}
@@ -170,16 +131,10 @@ export default function Workers() {
             </div>
           </div>
           <div className="px-[20px]">
-            <p
-              className={`${style.title} text-[26px] pb-[10px]`}
-              style={{ fontFamily: "Stark" }}
-            >
+            <p className={`${style.title} text-[26px] pb-[10px]`}>
               Realm-Sayan
             </p>
-            <p
-              className={`${style.title} pb-[20px]`}
-              style={{ fontFamily: "Gilroy" }}
-            >
+            <p className={`${style.title} pb-[20px]`}>
               На данный момент работаю над чатом.
             </p>
           </div>

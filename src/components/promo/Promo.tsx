@@ -1,6 +1,5 @@
 "use client";
 import style from "@/styles/Promo/Promo.module.css";
-import "../../styles/globals.css";
 import image from "../../../public/assets/image/ava.jpg";
 import ButtonPromo from "../common/BTNworks/BTNworks";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -27,7 +26,6 @@ export default function Promo() {
               initial={{ x: -700 }}
               animate={{ x: 0 }}
               transition={{ duration: 0.4 }}
-              style={{ fontFamily: "Stark" }}
               className={` text-[var(--third-color)] cursor-default text-[24px] tracking-[10px]`}
             >
               {text}
@@ -39,7 +37,6 @@ export default function Promo() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
-              style={{ fontFamily: "Stark" }}
               className={` text-[var(--text-color)] cursor-default  text-[96px] tracking-[12px]`}
             >
               CREATOR
@@ -54,7 +51,7 @@ export default function Promo() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5 }}
-              style={{ fontFamily: "Acline" }}
+              style={{ fontStyle: "italic", fontWeight: 300 }}
               className={` text-[var(--text-color)] cursor-default  text-[20px] tracking-[4px]`}
             >
               Опытный фронтенд-разработчик с обширным опытом работы в индустрии

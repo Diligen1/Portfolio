@@ -1,5 +1,13 @@
 import type { Metadata } from "next";
+import { Roboto } from "next/font/google";
 import "../styles/globals.css";
+
+const roboto = Roboto({
+  weight: ["300", "400", "500", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin", "cyrillic"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: "PORTFOLIO | CREATOR | KUBA",
@@ -24,7 +32,7 @@ export default function RootLayout({
           href="https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css"
         ></link>
       </head>
-      <body data-theme="base">
+      <body data-theme="base" className={roboto.className}>
         <div className="w-full h-[100vh]">{children}</div>
       </body>
     </html>

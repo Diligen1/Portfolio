@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import "../../styles/globals.css";
 import { icon } from "@/utils/icon";
 import style from "@/styles/Skills/Skills.module.css";
 import { motion } from "framer-motion";
@@ -10,7 +9,7 @@ export default function Skills() {
       <div className="w-full h-[250px] flex flex-col gap-[40px] items-center">
         <div
           className={`${style.text} text-[48px] flex justify-center `}
-          style={{ fontFamily: "Acline" }}
+          style={{ fontWeight: 300 }}
         >
           SKILLS
         </div>

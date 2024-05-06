@@ -7,37 +7,37 @@ export default function Ticker() {
     <div className={`w-full ${style.container} `}>
       <div className={`${style.content} `}>
         <span
-          style={{ fontFamily: "Acline" }}
+          style={{ fontWeight: 300 }}
           className={`text-[64px]  ${style.text}`}
         >
           WELCOME
         </span>
         <span
-          style={{ fontFamily: "Acline" }}
+          style={{ fontWeight: 300 }}
           className={`text-[64px] ${style.text} `}
         >
           ようこそ
         </span>
         <span
-          style={{ fontFamily: "Acline" }}
+          style={{ fontWeight: 300 }}
           className={`text-[64px] ${style.text} `}
         >
           BIENVENUE
         </span>
         <span
-          style={{ fontFamily: "Acline" }}
+          style={{ fontWeight: 300 }}
           className={`text-[64px] ${style.text}`}
         >
           WELCOME
         </span>
         <span
-          style={{ fontFamily: "Acline" }}
+          style={{ fontWeight: 300 }}
           className={`text-[64px] ${style.text} `}
         >
           ようこそ
         </span>
         <span
-          style={{ fontFamily: "Acline" }}
+          style={{ fontWeight: 300 }}
           className={`text-[64px] ${style.text} `}
         >
           BIENVENUE
