@@ -1,5 +1,5 @@
 "use client";
-import { Ticker, Workers } from "@/components";
+import { Ticker } from "@/components";
 export default function Works() {
   return (
     <main className="mx-auto">
