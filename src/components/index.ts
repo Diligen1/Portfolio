@@ -6,6 +6,7 @@ import ButtonPromo from "./common/BTNworks/BTNworks";
 import Ticker from "./common/Ticker/Ticker";
 import Works from "./works/Works";
 import Workers from "./common/Workers/workers";
+
 import Skills from "./skills/Skills";
 // import Relax from "./relax/Relax";
 import ButtonRelax from "./common/BTNrelax/BTNrelax";
@@ -17,8 +18,8 @@ export {
   ButtonPromo,
   ButtonRelax,
   Ticker,
-  Works,
   Workers,
+  Works,
   Skills,
   // Relax,
   Footer,

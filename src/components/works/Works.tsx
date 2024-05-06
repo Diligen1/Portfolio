@@ -5,9 +5,7 @@ export default function Works() {
     <main className="mx-auto">
       <div className={` w-full h-[700px]`}>
         <Ticker />
-        <div>
-          <Workers />
-        </div>
+        <div>{/* <Workers /> */}</div>
       </div>
     </main>
   );
