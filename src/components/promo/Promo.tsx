@@ -68,7 +68,7 @@ export default function Promo() {
           </motion.div>
         </div>
         <motion.div
-          initial={{ x: 1000 }}
+          initial={{ x: 700 }}
           animate={{ x: 0 }}
           className={`w-[50%] flex justify-center items-center`}
         >

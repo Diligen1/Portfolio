@@ -11,9 +11,7 @@ export default function Home() {
         <Skills />
       </div>
       {/* <Relax /> */}
-      <div className="pt-[160px]">
-        <Footer />
-      </div>
+      <div className="pt-[160px]">{/* <Footer /> */}</div>
     </main>
   );
 }
