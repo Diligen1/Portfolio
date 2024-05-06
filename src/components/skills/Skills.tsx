@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Skills() {
   return (
     <main id="skill" className="mx-auto">
-      <div className="w-full h-[300px] flex flex-col gap-[40px] items-center">
+      <div className="w-full h-[250px] flex flex-col gap-[40px] items-center">
         <div
           className={`${style.text} text-[48px] flex justify-center `}
           style={{ fontFamily: "Acline" }}
@@ -21,13 +21,13 @@ export default function Skills() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.4, type: "spring" }}
               key={index}
-              className={`${style.block_icon} border-[2px] w-[120px] h-[120px] rounded-[50%] bg-slate-400 flex justify-center items-center `}
+              className={`${style.block_icon} border-[2px] w-[100px] h-[100px] rounded-[50%] bg-slate-400 flex justify-center items-center `}
             >
               <Image
                 src={e.image}
                 alt={e.text}
                 property=""
-                className="w-[70px]"
+                className="w-[50px]"
               />
             </motion.div>
           ))}

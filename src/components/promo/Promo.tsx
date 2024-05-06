@@ -15,19 +15,20 @@ export default function Promo() {
     deleteSpeed: 80,
     delaySpeed: 10000,
   });
+
   return (
     <main className="mx-auto">
       <div className="w-full h-[700px] flex flex-row ">
         <div className={`w-[50%]`}>
           <div
-            className={`${style.block_text} text-right h-[80%] flex flex-col justify-center gap-[15px]  px-[20px]`}
+            className={` border-r-[2px] border-[var(--border-color)] text-right h-[80%] flex flex-col justify-center gap-[15px]  px-[20px]`}
           >
             <motion.h3
               initial={{ x: -700 }}
               animate={{ x: 0 }}
               transition={{ duration: 0.4 }}
               style={{ fontFamily: "Stark" }}
-              className={`${style.developer} cursor-default text-[24px] tracking-[10px]`}
+              className={` text-[var(--third-color)] cursor-default text-[24px] tracking-[10px]`}
             >
               {text}
               <span>
@@ -39,11 +40,13 @@ export default function Promo() {
               animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
               style={{ fontFamily: "Stark" }}
-              className={`${style.title} cursor-default  text-[96px] tracking-[12px]`}
+              className={` text-[var(--text-color)] cursor-default  text-[96px] tracking-[12px]`}
             >
               CREATOR
               <br />
-              <span className={`${style.text_kuba} pt-[13px] pb-[14px]`}>
+              <span
+                className={` bg-[var(--third-color)] text-[var(--background-fon)] pt-[13px] pb-[14px]`}
+              >
                 KUBA
               </span>
             </motion.h1>
@@ -52,7 +55,7 @@ export default function Promo() {
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5 }}
               style={{ fontFamily: "Acline" }}
-              className={`${style.text_text} cursor-default  text-[20px] tracking-[4px]`}
+              className={` text-[var(--text-color)] cursor-default  text-[20px] tracking-[4px]`}
             >
               Опытный фронтенд-разработчик с обширным опытом работы в индустрии
               веб-технологий.
@@ -73,7 +76,7 @@ export default function Promo() {
           className={`w-[50%] flex justify-center items-center`}
         >
           <div
-            className={`${style.image} relative w-[450px] h-[450px] rounded-[50%] overflow-hidden border-[5px]`}
+            className={` ${style.image} hover:border-[var(--text-color)] duration-300  relative w-[450px] h-[450px] rounded-[50%] overflow-hidden border-[5px]`}
           >
             <Image src={image} alt="ava" priority />
           </div>

@@ -1,19 +1,6 @@
-.developer {
-  color: var(--third-color);
-}
-.title {
-  color: var(--text-color);
-}
-.block_text {
-  border-right: 2px solid var(--border-color);
-}
-.text_text {
-  color: var(--text-color);
-}
 .image {
   border-color: var(--border-color);
   box-shadow: 0 0 35px var(--border-color);
-
   animation: rotate 60s linear infinite;
 }
 @keyframes rotate {
@@ -26,11 +13,4 @@
 }
 .rotating-box p {
   margin: 0;
-}
-.image:hover {
-  border-color: var(--text-color);
-}
-.text_kuba {
-  background-color: var(--third-color);
-  color: var(--background-fon);
 }

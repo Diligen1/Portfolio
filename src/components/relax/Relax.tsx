@@ -54,7 +54,7 @@ export default function Relax() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/eEZF9iIv5XM?si=1atfM7JyUtqR08LZ"
+              src="https://www.youtube.com/embed/FFfdyV8gnWk?si=gW0OcY76XhiEXy1L"
               title="YouTube video player"
               allow="autoplay; encrypted-media"
               allowFullScreen

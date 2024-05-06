@@ -1,7 +1,6 @@
 "use client";
 
 import "../../../styles/globals.css";
-import style from "@/styles/Header/Header.module.css";
 import { motion } from "framer-motion";
 import { useState, useRef } from "react";
 import Link from "next/link";
@@ -21,12 +20,12 @@ export default function Header() {
         transition={{
           type: "spring",
         }}
-        className={` bg-[var(--background-fon)] border[var(--border-color)] w-[80%] h-[100px] rounded-[6px] flex flex-row border-[2px]  overflow-hidden justify-between`}
+        className={` bg-[var(--background-fon)] border-[var(--border-color)] w-[80%] h-[100px] rounded-[6px] flex flex-row border-[2px]  overflow-hidden justify-between`}
       >
         <div className="relative w-[25%] h-full flex flex-row gap-[8px]">
-          <div className={`${style.third} w-[20%] `}></div>
+          <div className={` bg-[var(--third-color)] w-[20%] `}></div>
           <div
-            className={`cursor-pointer absolute left-[10%] hover:left-[6%] ${style.logo}
+            className={`cursor-pointer absolute left-[10%] hover:left-[6%] bg-[var(--background-fon)] text-[var(--text-color)] hover:text-[var(--background-fon)] hover:bg-[var(--text-color)]
           top-[25%] w-[50px] h-[50px] flex justify-center items-center rounded-[6px] duration-300 hover:w-[70px] `}
           >
             <p className={` text-[24px] `} style={{ fontFamily: "Caviar" }}>
@@ -34,10 +33,10 @@ export default function Header() {
             </p>
           </div>
           <div
-            className={`${style.block_creator} w-[80%] flex pl-[40px] items-center`}
+            className={` bg-[var(--text-color)] w-[80%] flex pl-[40px] items-center duration-300`}
           >
             <p
-              className={` tracking-[8px] text-[12px] ${style.text_creator} cursor-default`}
+              className={` tracking-[8px] text-[12px] text-[var(--background-fon)] duration-300 cursor-default`}
               style={{ fontFamily: "Caviar" }}
             >
               CREATOR <br /> KUBA
@@ -52,7 +51,7 @@ export default function Header() {
           >
             <Link
               href="/#work"
-              className={`${style.nav_text} tracking-[2px] text-[14px] text-underline`}
+              className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
               WORKS
@@ -66,7 +65,7 @@ export default function Header() {
           >
             <Link
               href="/#skill"
-              className={`${style.nav_text} tracking-[2px] text-[14px] text-underline`}
+              className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)] tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
               SKILLS
@@ -79,7 +78,7 @@ export default function Header() {
           >
             <Link
               href="/#relax"
-              className={`${style.nav_text}  tracking-[2px] text-[14px] text-underline`}
+              className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)]  tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
               RELAX
@@ -92,7 +91,7 @@ export default function Header() {
           >
             <Link
               href="/"
-              className={`${style.nav_text}  tracking-[2px] text-[14px] text-underline`}
+              className={` text-[var(--text-color)] duration-300 hover:text-[var(--third-color)]  tracking-[2px] text-[14px] text-underline`}
               style={{ fontFamily: "Ubuntu" }}
             >
               CONTACT
@@ -106,7 +105,7 @@ export default function Header() {
           className="w-[25%] h-full flex justify-center items-center"
         >
           <div
-            className={`${style.theme_button} w-[180px] h-[50px] border-[2px]  rounded-[8px] flex justify-center items-center  text-[18px]   cursor-pointer`}
+            className={` hover:text-[var(--background-fon)] hover:bg-[var(--text-color)] hover:border-[var(--third-color)] duration-300 text-[var(--text-color)] border-[var(--border-color)] bg-[var(--background-fon)] w-[180px] h-[50px] border-[2px]  rounded-[8px] flex justify-center items-center  text-[18px] cursor-pointer`}
             onClick={handleActive}
           >
             <p style={{ fontFamily: "Gilroy" }}>THEME</p>
