@@ -1,3 +1,4 @@
+"use client";
 import image from "../../public/assets/icon/HTML.png";
 import image_1 from "../../public/assets/icon/css.png";
 import image_6 from "../../public/assets/icon/tailwind.png";
