@@ -20,15 +20,11 @@ export default function RootLayout({
       <head>
         <link
           rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-straight/css/uicons-thin-straight.css"
-        ></link>
-        <link
-          rel="stylesheet"
           href="https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css"
         ></link>
         <link
           rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css"
+          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css"
         ></link>
       </head>
       <body data-theme="base">

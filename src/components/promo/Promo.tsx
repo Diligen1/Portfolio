@@ -78,7 +78,7 @@ export default function Promo() {
           <div
             className={` ${style.image} hover:border-[var(--text-color)] duration-300  relative w-[450px] h-[450px] rounded-[50%] overflow-hidden border-[5px]`}
           >
-            <Image src={image} alt="ava" priority />
+            <Image src={image} alt="ava" priority property="null" />
           </div>
         </motion.div>
       </div>
