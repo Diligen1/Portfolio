@@ -1,5 +1,5 @@
 "use client";
-import ButtonRelax from "../common/BTNrelax/BTNrelax";
+// import { ButtonRelax } from "../common/BTNrelax/BTNrelax";
 
 export default function Relax() {
   return (
@@ -40,7 +40,7 @@ export default function Relax() {
               </p>
             </div>
             <div className=" w-[350px] h-[30%]  flex flex-col justify-center pl-[40px]">
-              <ButtonRelax />
+              {/* <ButtonRelax /> */}
             </div>
           </div>
           <div
