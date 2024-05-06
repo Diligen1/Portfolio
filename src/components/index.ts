@@ -5,8 +5,7 @@ import Promo from "./promo/Promo";
 import ButtonPromo from "./common/BTNworks/BTNworks";
 import Ticker from "./common/Ticker/Ticker";
 import Works from "./works/Works";
-// import Workers from "./common/Workers/workers";
-
+import Workers from "./common/Workers/Workeres";
 import Skills from "./skills/Skills";
 // import Relax from "./relax/Relax";
 import ButtonRelax from "./common/BTNrelax/BTNrelax";
@@ -18,7 +17,7 @@ export {
   ButtonPromo,
   ButtonRelax,
   Ticker,
-  // Workers,
+  Workers,
   Works,
   Skills,
   // Relax,
