@@ -7,7 +7,7 @@ import Ticker from "./common/Ticker/Ticker";
 import Works from "./works/Works";
 import Workers from "./common/Workers/workers";
 import Skills from "./skills/Skills";
-import Relax from "./relax/Relax";
+// import Relax from "./relax/Relax";
 import ButtonRelax from "./common/BTNrelax/BTNrelax";
 
 export {
@@ -20,6 +20,6 @@ export {
   Works,
   Workers,
   Skills,
-  Relax,
+  // Relax,
   Footer,
 };
