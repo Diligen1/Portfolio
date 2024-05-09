@@ -32,11 +32,13 @@ export default function ButtonRelax() {
           }
         ${
           isHovered
-            ? "text-[var(--text-color)]"
-            : "text-[var(--background-fon)]"
+            ? "text-[var(--background-fon)]"
+            : "text-[var(--text-color)]"
         }
         ${isHovered ? "bg-[var(--text-color)]" : "bg-[var(--background-fon)]"}`}
-        ></div>
+        >
+          <i className="fi fi-ts-angle-double-right text-[16px] h-[20px]"></i>
+        </div>
         <p
           className={` text-[var(--background-fon)] absolute text-[20px] px-[20px] left-[50px] transition-all duration-500 
            ${isHovered ? "left-[200px] transform translate-x-[140px]" : ""}

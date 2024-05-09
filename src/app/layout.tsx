@@ -31,6 +31,10 @@ export default function RootLayout({
           rel="stylesheet"
           href="https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css"
         ></link>
+        <link
+          rel="stylesheet"
+          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-straight/css/uicons-thin-straight.css"
+        ></link>
       </head>
       <body data-theme="base" className={roboto.className}>
         <div className="w-full h-[100vh]">{children}</div>
