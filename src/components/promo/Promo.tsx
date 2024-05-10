@@ -17,16 +17,16 @@ export default function Promo() {
 
   return (
     <main className="mx-auto">
-      <div className="w-full h-[700px] flex flex-row ">
-        <div className={`w-[50%]`}>
+      <div className="w-full h-[700px] flex flex-col-reverse md:flex-row ">
+        <div className={`w-full md:w-[50%]`}>
           <div
-            className={` border-r-[2px] border-[var(--border-color)] text-right h-[80%] flex flex-col justify-center gap-[15px]  px-[20px]`}
+            className={` md:border-r-[2px] border-[var(--border-color)] text-center md:text-right h-[80%] flex flex-col justify-center gap-[15px] px-[20px]`}
           >
             <motion.h3
               initial={{ x: -700 }}
               animate={{ x: 0 }}
               transition={{ duration: 0.4 }}
-              className={` text-[var(--third-color)] cursor-default text-[24px] tracking-[10px]`}
+              className={` text-[var(--third-color)] cursor-default text-[14px] md:text-[24px] tracking-[10px]`}
             >
               {text}
               <span>
@@ -37,7 +37,7 @@ export default function Promo() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 1 }}
-              className={` text-[var(--text-color)] cursor-default  text-[96px] tracking-[12px]`}
+              className={` text-[var(--text-color)] cursor-default text-[52px] md:text-[96px] tracking-[12px]`}
             >
               CREATOR
               <br />
@@ -52,7 +52,7 @@ export default function Promo() {
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5 }}
               style={{ fontStyle: "italic", fontWeight: 300 }}
-              className={` text-[var(--text-color)] cursor-default  text-[20px] tracking-[4px]`}
+              className={` text-[var(--text-color)] cursor-default text-[18px] md:text-[20px] tracking-[4px]`}
             >
               Опытный фронтенд-разработчик с обширным опытом работы в индустрии
               веб-технологий.
@@ -62,7 +62,7 @@ export default function Promo() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 2 }}
-            className="flex items-end justify-end pr-[20px] "
+            className="flex justify-center pt-0 md:pt-[20px] md:pb-0 pb-[40px] md:justify-end pr-0 md:pr-[20px] "
           >
             <ButtonPromo />
           </motion.div>
@@ -70,10 +70,10 @@ export default function Promo() {
         <motion.div
           initial={{ x: 700 }}
           animate={{ x: 0 }}
-          className={`w-[50%] flex justify-center items-center`}
+          className={`w-full md:w-[50%] flex justify-center items-center`}
         >
           <div
-            className={` ${style.image} hover:border-[var(--text-color)] duration-300  relative w-[450px] h-[450px] rounded-[50%] overflow-hidden border-[5px]`}
+            className={` ${style.image} hover:border-[var(--text-color)] duration-300  relative h-[300px] w-[300px] md:w-[450px] md:h-[450px] rounded-[50%] overflow-hidden border-[5px]`}
           >
             <Image src={image} alt="ava" priority property="null" />
           </div>

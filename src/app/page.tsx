@@ -7,9 +7,7 @@ export default function Home() {
         <Promo />
       </div>
       <Works />
-      <div className="py-[140px]">
-        <Skills />
-      </div>
+      <Skills />
       <Relax />
       <div className="pt-[160px]">
         <Footer />

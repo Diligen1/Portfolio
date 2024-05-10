@@ -9,36 +9,44 @@ import image_3 from "../../../../public/assets/image/coffee cup gif.gif";
 export default function Workers() {
   return (
     <main id="work">
-      <div className="w-full h-[700px] flex justify-around items-center ">
+      <div className="w-full h-[1200px] md:h-[900px] lg:h-[700px] flex flex-wrap justify-around items-center gap-[40px] lg:gap-0">
         <div
-          className={`${style.contain} relative w-[350px] h-[520px] rounded-[18px] border-[2px] flex flex-col justify-evenly`}
+          className={`${style.contain} relative w-[250px] h-[360px] md:w-[300px] md:h-[460px] lg:w-[350px] lg:h-[520px] rounded-[18px] border-[2px] flex flex-col justify-evenly`}
         >
           <div className={` flex flex-row justify-around items-center `}>
             <div className="w-[65%]">
-              <p className={` text-[25px] m-0 p-0 ${style.number}`}>01</p>
-              <p className={` text-[14px] ${style.number}`}>
+              <p
+                className={`text-[16px] lg:text-[25px] m-0 p-0 ${style.number}`}
+              >
+                01
+              </p>
+              <p className={`text-[12px] lg:text-[14px] ${style.number}`}>
                 Programming courses
               </p>
             </div>
             <motion.div
               whileHover={{ scale: 1.1 }}
-              className={`${style.block_icon} w-[55px] h-[55px] rounded-[8px] border-[3px] flex justify-center items-center`}
+              className={`${style.block_icon} w-[40px] h-[40px] lg:w-[55px] lg:h-[55px] rounded-[8px] border-[3px] flex justify-center items-center`}
             >
-              <i className="fi fi-ss-bulb text-[30px] h-[36px] "></i>
+              <i className="fi fi-ss-bulb text-[18px] h-[22px] lg:text-[30px] lg:h-[36px] "></i>
             </motion.div>
           </div>
           <div className="w-full overflow-hidden flex justify-center items-center">
             <div
-              className={`${style.block_image} w-[85%] h-[280px] border-[10px] rounded-[8px] overflow-hidden flex justify-center items-center`}
+              className={`${style.block_image} w-[85%] h-[180px] lg:h-[280px] border-[10px] rounded-[8px] overflow-hidden flex justify-center items-center`}
             >
               <Image src={image} alt="Booster-school" className="scale-[1.5]" />
             </div>
           </div>
           <div className="px-[20px]">
-            <p className={`${style.title} text-[26px] pb-[10px]`}>
+            <p
+              className={`${style.title} text-[18px] lg:text-[26px] pb-[10px]`}
+            >
               Booster-school
             </p>
-            <p className={`${style.title} pb-[20px]`}>
+            <p
+              className={`${style.title} text-[12px] lg:text-[14px] pb-[20px]`}
+            >
               Принимал участие в разработке сайта курсов по программированию.
             </p>
           </div>
@@ -56,25 +64,29 @@ export default function Workers() {
           </a>
         </div>
         <div
-          className={`${style.contain} relative w-[350px] h-[520px] rounded-[18px] border-[2px] flex flex-col justify-evenly`}
+          className={`${style.contain} relative w-[250px] h-[360px] md:w-[300px] md:h-[460px] lg:w-[350px] lg:h-[520px] rounded-[18px] border-[2px] flex flex-col justify-evenly`}
         >
           <div className={` flex flex-row justify-around items-center `}>
             <div className="w-[55%]">
-              <p className={` text-[25px] m-0 p-0 ${style.number}`}>02</p>
-              <p className={` text-[14px] ${style.number}`}>
+              <p
+                className={`text-[16px] lg:text-[25px] m-0 p-0 ${style.number}`}
+              >
+                02
+              </p>
+              <p className={` text-[12px] lg:text-[14px] ${style.number}`}>
                 Hiking in the mountains
               </p>
             </div>
             <motion.div
               whileHover={{ scale: 1.1 }}
-              className={`${style.block_icon} w-[60px] h-[60px] rounded-[8px] border-[3px] flex justify-center items-center`}
+              className={`${style.block_icon} w-[40px] h-[40px] lg:w-[55px] lg:h-[55px] rounded-[8px] border-[3px] flex justify-center items-center`}
             >
-              <i className="fi fi-ss-bulb text-[30px] h-[36px]"></i>
+              <i className="fi fi-ss-bulb text-[18px] h-[22px] lg:text-[30px] lg:h-[36px]"></i>
             </motion.div>
           </div>
           <div className="w-full overflow-hidden flex justify-center items-center">
             <div
-              className={`${style.block_image} w-[85%] h-[280px] border-[10px] rounded-[8px] overflow-hidden flex justify-center items-center`}
+              className={`${style.block_image} w-[85%] h-[180px] lg:h-[280px] border-[10px] rounded-[8px] overflow-hidden flex justify-center items-center`}
             >
               <Image
                 src={image_2}
@@ -84,10 +96,14 @@ export default function Workers() {
             </div>
           </div>
           <div className="px-[20px]">
-            <p className={`${style.title} text-[26px] pb-[10px]`}>
+            <p
+              className={`${style.title} text-[18px] lg:text-[26px] pb-[10px]`}
+            >
               Horse-and-Travel
             </p>
-            <p className={`${style.title} pb-[20px]`}>
+            <p
+              className={`${style.title} text-[12px] lg:text-[14px] pb-[20px]`}
+            >
               Принимал участие в разработке сайта Похода в горы.
             </p>
           </div>
@@ -105,23 +121,25 @@ export default function Workers() {
           </a>
         </div>
         <div
-          className={`${style.contain} relative w-[350px] h-[520px] rounded-[18px] border-[2px] flex flex-col justify-evenly`}
+          className={`${style.contain} relative w-[250px] h-[360px] md:w-[300px] md:h-[460px] lg:w-[350px] lg:h-[520px] rounded-[18px] border-[2px] flex flex-col justify-evenly`}
         >
           <div className={` flex flex-row justify-around items-center `}>
             <div className="w-[55%]">
               <p className={` text-[25px] m-0 p-0 ${style.number}`}>03</p>
-              <p className={` text-[14px] ${style.number}`}>In developing</p>
+              <p className={` text-[12px] lg:text-[14px] ${style.number}`}>
+                In developing
+              </p>
             </div>
             <motion.div
               whileHover={{ scale: 1.1 }}
-              className={`${style.block_icon} w-[55px] h-[55px] rounded-[8px] border-[3px] flex justify-center items-center`}
+              className={`${style.block_icon} w-[40px] h-[40px] lg:w-[55px] lg:h-[55px] rounded-[8px] border-[3px] flex justify-center items-center`}
             >
-              <i className="fi fi-ss-bulb text-[30px] h-[36px]"></i>
+              <i className="fi fi-ss-bulb text-[18px] h-[22px] lg:text-[30px] lg:h-[36px]"></i>
             </motion.div>
           </div>
           <div className="w-full overflow-hidden flex justify-center items-center">
             <div
-              className={`${style.block_image} w-[85%] h-[280px] border-[10px] rounded-[8px] overflow-hidden flex justify-center items-center`}
+              className={`${style.block_image} w-[85%] h-[180px] lg:h-[280px] border-[10px] rounded-[8px] overflow-hidden flex justify-center items-center`}
             >
               <Image
                 src={image_3}
@@ -131,10 +149,14 @@ export default function Workers() {
             </div>
           </div>
           <div className="px-[20px]">
-            <p className={`${style.title} text-[26px] pb-[10px]`}>
+            <p
+              className={`${style.title} text-[18px] lg:text-[26px] pb-[10px]`}
+            >
               Realm-Sayan
             </p>
-            <p className={`${style.title} pb-[20px]`}>
+            <p
+              className={`${style.title} text-[12px] lg:text-[14px] pb-[20px]`}
+            >
               На данный момент работаю над чатом.
             </p>
           </div>
