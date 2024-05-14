@@ -3,7 +3,6 @@ import style from "@/styles/headermobile/headermobile.module.css";
 import Linii from "@/components/common/animation/linia";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { motion } from "framer-motion";
-import { useState, useEffect } from "react";
 
 export default function Promo() {
   const [text] = useTypewriter({
@@ -15,11 +14,11 @@ export default function Promo() {
   });
   return (
     <main className="mx-auto">
-      <div className="w-full h-[100vh] flex justify-center items-center relative">
+      <div className="w-full h-[90vh] flex justify-center items-center relative">
         <div
           className={` ${style.shadow} w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] md:w-[620px] md:h-[620px] bg-[var(--third-color)] rounded-[50%]  absolute z-[-10] border-[2px] border-[var(--text-color)]`}
         ></div>
-        <div className="flex flex-col justify-around items-center gap-[40px]">
+        <div className="flex flex-col justify-between items-center gap-[60px]">
           <p className=" text-center tracking-[15px] cursor-default text-[42px] md:text-[96px] text-[var(--text-color)]">
             CREATOR KUBA
           </p>
@@ -30,7 +29,7 @@ export default function Promo() {
             </span>
           </p>
         </div>
-        <div className="absolute left-[100px] hidden lg:flex">
+        <div className="absolute bottom-[40px] md:bottom-auto left-[50%] translate-x-[-50%] md:left-[100px] flex">
           <Linii />
         </div>
         <motion.div className="h-[50px] overflow-hidden absolute top-[40px] left-[50%] translate-x-[-50%] md:top-auto md:left-auto md:bottom-[20px] md:right-[20px] flex flex-row gap-[10px] justify-center items-center">

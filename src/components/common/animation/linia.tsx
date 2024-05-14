@@ -60,7 +60,7 @@ export default function Linii() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, type: "spring" }}
-        className="flex flex-row justify-center items-center gap-[20px]"
+        className="flex flex-col md:flex-row justify-center items-center gap-[20px]"
       >
         <p
           className={` cursor-default transition-all duration-500 text-[var(--text-color)] text-[20px]`}
@@ -75,7 +75,7 @@ export default function Linii() {
           ></div>
           <div
             className={`w-[60px] h-[2px] bg-[var(--text-color)] transition-all duration-500 ${
-              isAnimationNumber ? "w-60px] transform" : "w-0"
+              isAnimationNumber ? "w-[60px] transform" : "w-0"
             }`}
           ></div>
           <div
