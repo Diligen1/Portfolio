@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import HeaderMobile from "../headermobile/headermobile";
 import { motion } from "framer-motion";
 
 export default function Header() {
@@ -119,7 +120,9 @@ export default function Header() {
           </motion.div>
         </div>
       </div>
-      <div className="md:hidden "></div>
+      <div className="md:hidden ">
+        <HeaderMobile />
+      </div>
     </main>
   );
 }

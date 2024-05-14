@@ -3,6 +3,7 @@ import style from "@/styles/headermobile/headermobile.module.css";
 import Linii from "@/components/common/animation/linia";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { motion } from "framer-motion";
+
 export default function Promo() {
   const [text] = useTypewriter({
     words: ["DEVELOPER", "DESIGNER", "RELAXING"],

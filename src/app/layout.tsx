@@ -10,9 +10,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "PORTFOLIO | CREATOR | KUBA",
-  description:
-    "Мета-заголовок — это HTML-тег, который определяет заголовок вашей страницы. Этот тег отображает заголовок вашей страницы в результатах поисковой системы, в верхней части браузера пользователя, а также когда ваша страница добавлена ​​в список избранного.",
+  title: "Portfolio | Kuba",
+  description: "Персональное Портфолио Кубаныча",
 };
 
 export default function RootLayout({
@@ -25,20 +24,10 @@ export default function RootLayout({
       <head>
         <link
           rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-solid-straight/css/uicons-solid-straight.css"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css"
-        ></link>
-        <link
-          rel="stylesheet"
-          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-straight/css/uicons-thin-straight.css"
+          href="https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-rounded/css/uicons-regular-rounded.css"
         ></link>
       </head>
-      <body data-theme="base" className={roboto.className}>
-        <div className="w-full h-[100vh]">{children}</div>
-      </body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

@@ -2,6 +2,7 @@
 import style from "@/styles/headermobile/headermobile.module.css";
 import Link from "next/link";
 import { useState } from "react";
+
 export default function HeaderMobile() {
   const [showIndicator, setShowIndicator] = useState(false);
 
@@ -9,7 +10,7 @@ export default function HeaderMobile() {
     setShowIndicator(true);
     setTimeout(() => {
       setShowIndicator(false);
-    }, 1000); // Устанавливаем таймер для скрытия индикатора через 1 секунду
+    }, 1000);
   };
   return (
     <main className="mx-auto w-[100%] h-[100vh] flex items-end justify-center fixed">
