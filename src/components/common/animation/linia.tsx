@@ -69,17 +69,17 @@ export default function Linii() {
         </p>
         <Link href="/" className="flex flex-col gap-[20px]">
           <div
-            className={`w-[80px] h-[2px] bg-[var(--text-color)] transition-all duration-500 ${
+            className={`w-[90px] h-[2px] bg-[var(--text-color)] transition-all duration-500 ${
               isAnimationComplete ? "w-[80px] transform" : "w-0"
             }`}
           ></div>
           <div
-            className={`w-[60px] h-[2px] bg-[var(--text-color)] transition-all duration-500 ${
+            className={`w-[70px] h-[2px] bg-[var(--text-color)] transition-all duration-500 ${
               isAnimationNumber ? "w-[60px] transform" : "w-0"
             }`}
           ></div>
           <div
-            className={`w-[40px] h-[2px] bg-[var(--text-color)] transition-all duration-500 ${
+            className={`w-[50px] h-[2px] bg-[var(--text-color)] transition-all duration-500 ${
               isAnimationString ? "w-[40px] transform" : "w-0"
             }`}
           ></div>

@@ -14,7 +14,7 @@ export default function Promo() {
   });
   return (
     <main className="mx-auto">
-      <div className="w-full h-[85vh] flex justify-center items-center relative">
+      <div className="w-full h-[100vh] flex justify-center items-center relative">
         <div
           className={` ${style.shadow} w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] md:w-[580px] md:h-[580px] bg-[var(--third-color)] rounded-[50%]  absolute z-[-10] border-[2px] border-[var(--text-color)]`}
         ></div>
