@@ -25,8 +25,8 @@ export default function Header() {
   };
 
   return (
-    <main className="mx-auto ">
-      <div className="w-full h-[120px] hidden md:flex  justify-center items-center ">
+    <main className="mx-auto  ">
+      <div className="w-full h-[120px] hidden md:flex justify-center items-center ">
         <div className="w-[75%] flex flex-row justify-around items-center">
           <motion.div
             initial={{ y: -300, opacity: 0 }}

@@ -53,5 +53,5 @@
   box-shadow: 0px -10px 0 0 var(--background-color);
 }
 .shadow {
-  box-shadow: 0px 0px 100px 0px #fff;
+  box-shadow: 0px 0px 100px 0px var(--text-color);
 }
