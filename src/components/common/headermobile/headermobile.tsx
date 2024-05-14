@@ -13,7 +13,7 @@ export default function HeaderMobile() {
     }, 1000);
   };
   return (
-    <main className="mx-auto w-[100%] h-[100vh] pb-[40px] flex items-end justify-center fixed">
+    <main className="mx-auto w-[100%] h-[100vh] flex items-end justify-center fixed">
       <div
         className={`${style.navigation} w-[100%] h-[90px] rounded-t-[8px] bg-[var(--text-color)] flex flex-row justify-around items-center`}
       >
@@ -21,7 +21,7 @@ export default function HeaderMobile() {
           className={` ${style.block} w-full h-[90px] flex flex-row justify-around items-center`}
         >
           <Link
-            href="/"
+            href="/about"
             className={` ${style.block_1}  flex flex-col justify-center items-center  relative`}
           >
             <i className="fi fi-rr-user"></i>
