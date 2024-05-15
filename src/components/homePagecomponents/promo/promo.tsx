@@ -13,8 +13,8 @@ export default function Promo() {
     delaySpeed: 10000,
   });
   return (
-    <main className="mx-auto">
-      <div className="w-full h-[100vh] flex justify-center items-center relative">
+    <main className="mx-auto flex justify-center items-center h-[100vh]">
+      <div className="w-full h-[100%] flex justify-center items-center relative">
         <div
           className={` ${style.shadow} w-[250px] h-[250px] sm:w-[400px] sm:h-[400px] md:w-[580px] md:h-[580px] bg-[var(--third-color)] rounded-[50%]  absolute z-[-10] border-[2px] border-[var(--text-color)]`}
         ></div>
